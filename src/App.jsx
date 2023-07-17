@@ -1,5 +1,6 @@
 import {  useState } from 'react'
 import { TextComponent } from './components/textArea/component'
+import { CardPerson } from './components/textArea/propsatividade'
 
 function App() {
   const student = {
@@ -29,6 +30,9 @@ function App() {
         </ul>
       </div>
 
+    <CardPerson name={"lucas"} age={20} country={"Brasil"}/>
+      <CardPerson name={"luca"} age={10} country={"Italia"}/>
+      <CardPerson name={"lucasDois"} age={40} country={"Espanha"}/>
     </>
   )
 }
